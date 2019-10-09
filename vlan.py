@@ -32,7 +32,7 @@ SW4 = {
 }
 #A list of the dictionaries
 switches = [SW1, SW2, SW3, SW4]
-#Loops through the devices in the switvhes list and creates the Vlans.
+#Loops through the devices in the switches list and creates the Vlans.
 for devices in switches:
 	net_connect = ConnectHandler(**devices)
 	for n in range (2,5):
